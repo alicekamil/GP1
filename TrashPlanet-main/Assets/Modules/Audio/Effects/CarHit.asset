@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9b5464b82103b44be79f648d65788c, type: 3}
+  m_Name: CarHit
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: 4746fbdf407b942a5a6162bc0756344c, type: 3}
+  - {fileID: 8300000, guid: eca886d2be51943129ceeed450cfbbc7, type: 3}
+  - {fileID: 8300000, guid: 10bf2eaccc32b4858b7690923ad2b987, type: 3}
+  - {fileID: 8300000, guid: e22d00934cf844153855490c00e797f1, type: 3}
+  - {fileID: 8300000, guid: 9000092dc6760423cbea7a9b872afe28, type: 3}
+  _type: 2
+  _volume: 1
+  _pitchMin: 0.93
+  _pitchMax: 1.07

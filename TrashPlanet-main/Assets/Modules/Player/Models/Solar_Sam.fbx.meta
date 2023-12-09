@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: 0320df4f13643064b969fa32d8ee0875
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sam_material
+    second: {fileID: 2100000, guid: bd4aac140c1d10441abf41949924918b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SolarSam
+    second: {fileID: 2100000, guid: bd4aac140c1d10441abf41949924918b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hoverboard
+    second: {fileID: 2100000, guid: ffe87957cc9920d46b9d82b0f59f633e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hoverboard_material
+    second: {fileID: 2100000, guid: ffe87957cc9920d46b9d82b0f59f633e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert6
+    second: {fileID: 2100000, guid: bd4aac140c1d10441abf41949924918b, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 32
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Solar_Sam(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solar_Sam_ctr_Set
+      parentName: Solar_Sam(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root
+      parentName: Solar_Sam_ctr_Set
+      position: {x: 0.00054211257, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solar_Sam_export
+      parentName: Solar_Sam(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chest
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hips
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_L
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_R
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_R
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh_R
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shin_R
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shin_L
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh_L
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot_L
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: forearm_L
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper_arm_L
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: forearm_R
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper_arm_R
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hoverboard1:hoverboard_mesh
+      parentName: Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solar_Sam_Skeleton
+      parentName: Solar_Sam(Clone)
+      position: {x: 0.0001290283, y: -0.00082969776, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7024664, w: 0.71171695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_foot_IK_J
+      parentName: Solar_Sam_Skeleton
+      position: {x: -0.05117279, y: -0.15478124, z: -0.0027237576}
+      rotation: {x: 0, y: 0, z: 0.7024664, w: 0.71171695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_foot_IK_J
+      parentName: Solar_Sam_Skeleton
+      position: {x: -0.048161034, y: 0.15179089, z: -0.015272116}
+      rotation: {x: 0, y: 0, z: 0.7024664, w: 0.71171695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rip_J
+      parentName: Solar_Sam_Skeleton
+      position: {x: -0.60953385, y: 0.0020269195, z: 0.016342545}
+      rotation: {x: 0, y: 0, z: 0.7024664, w: 0.71171695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_hand_IK_J
+      parentName: rip_J
+      position: {x: 0.71120733, y: 0.36886692, z: -0.016755477}
+      rotation: {x: 0, y: 0.2323241, z: -0, w: 0.9726385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_hand_IK_J
+      parentName: rip_J
+      position: {x: -0.66229993, y: 0.31586194, z: 0.00045911668}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_thigh_J
+      parentName: rip_J
+      position: {x: 0.09531168, y: -0.03174096, z: -0.022697968}
+      rotation: {x: 0.037397224, y: -0.35060507, z: 0.0011843396, w: 0.9357757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_shin_J
+      parentName: R_thigh_J
+      position: {x: 0.04402784, y: -0.2507616, z: 0.014526688}
+      rotation: {x: 0.024149802, y: 0.0023059256, z: -0.023498615, w: 0.9994295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_foot_J
+      parentName: R_shin_J
+      position: {x: 0.02252608, y: -0.27786207, z: -0.01089502}
+      rotation: {x: -0.051577095, y: 0.34657627, z: -0.01049034, w: 0.936544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_toe_R
+      parentName: R_foot_J
+      position: {x: -0.003072, y: -0.03419683, z: 0.0780812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_thigh_J
+      parentName: rip_J
+      position: {x: -0.08293639, y: -0.03174109, z: -0.02269798}
+      rotation: {x: 0.04694171, y: 0.37284812, z: -0.0025614896, w: 0.9267007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_shin_J
+      parentName: L_thigh_J
+      position: {x: -0.04402796, y: -0.250761, z: 0.014526706}
+      rotation: {x: 2.5619377e-16, y: -3.0542506e-17, z: 2.492527e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_foot_J
+      parentName: L_shin_J
+      position: {x: -0.022525935, y: -0.2778626, z: -0.010895031}
+      rotation: {x: -0.04694171, y: -0.37284815, z: 0.0025614921, w: 0.9267007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_toe_L
+      parentName: L_foot_J
+      position: {x: 0.0030717184, y: -0.03419679, z: 0.07808105}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_J
+      parentName: rip_J
+      position: {x: 0.0044196146, y: 0.110557966, z: -0.016342545}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine01_J
+      parentName: spine_J
+      position: {x: 0.00088943663, y: 0.14142042, z: -1.3487371e-35}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_solder__J
+      parentName: spine01_J
+      position: {x: -0.08584786, y: 0.097336225, z: 0.057398207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_upperarm_J
+      parentName: L_solder__J
+      position: {x: -0.12306184, y: -0.018671453, z: -0.05893466}
+      rotation: {x: 0.6487309, y: 0.48117948, z: 0.3295822, w: -0.48886618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_forearm_J
+      parentName: L_upperarm_J
+      position: {x: -0.080626726, y: -0.21641912, z: 0}
+      rotation: {x: -0.0033319884, y: 0.000416994, z: -0.11997576, w: 0.99277115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_wrist_J
+      parentName: L_forearm_J
+      position: {x: -0.0025461072, y: -0.22914964, z: 0}
+      rotation: {x: -0.054439753, y: -0.24329408, z: -0.058504324, w: 0.96665484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_J
+      parentName: spine01_J
+      position: {x: -0.00088943663, y: 0.17344014, z: -2.4250653e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_J
+      parentName: neck_J
+      position: {x: -0.0009566054, y: 0.623208, z: -3.2290903e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_solder__J
+      parentName: spine01_J
+      position: {x: 0.08584793, y: 0.097336635, z: 0.05739808}
+      rotation: {x: -0.0029241757, y: -0.038766656, z: 0.08743652, w: 0.9954112}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_upperarm_J
+      parentName: R_solder__J
+      position: {x: 0.13767229, y: -0.039773904, z: -0.058934525}
+      rotation: {x: 0.57424855, y: -0.5696279, z: -0.36953217, w: -0.45739332}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_forearm_J
+      parentName: R_upperarm_J
+      position: {x: 0.03167037, y: -0.22465508, z: 0.000000004763964}
+      rotation: {x: -0.0000000017264552, y: 0.0000000015792142, z: 0.10033174, w: 0.99495405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_wrist_J
+      parentName: R_forearm_J
+      position: {x: -0.01394917, y: -0.22855847, z: 0.0000000037357384}
+      rotation: {x: 0.08335576, y: 0.5258936, z: -0.04264447, w: 0.8453811}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hoverboard_J
+      parentName: rip_J
+      position: {x: -0.010726428, y: -0.6449212, z: -0.22829853}
+      rotation: {x: -8.6558165e-17, y: 0.72759205, z: 8.6558165e-17, w: 0.68601006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: hoverboard_J
+      position: {x: -0.53042734, y: 0, z: -2.664535e-16}
+      rotation: {x: 2.5461593e-18, y: -0.72759205, z: -2.5461593e-18, w: 0.68601006}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 32
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
